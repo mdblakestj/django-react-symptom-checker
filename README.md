@@ -2,22 +2,7 @@
 
 This is a simple diagnosing tool built with Django and React.
 
-## Tests
-
-For testing we use Pytest. To install:
-
-```
-pip install -U pytest
-
-```
-
-To run tests:
-
-```
-pytest -v
-```
-
-##Installation
+## Installation
 
 Install node packages:
 
@@ -178,4 +163,12 @@ body = {
         "symptom": 1,
         "diagnosis": 1
     }
+```
+
+## Tests
+
+To run tests:
+
+```
+python3 manage.py test
 ```
